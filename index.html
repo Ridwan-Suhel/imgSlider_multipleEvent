@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+</head>
+<style>
+
+    .container img{
+        width: 700px;
+        height: 380px;
+        margin: 0 auto;
+
+    }
+</style>
+<body>
+    
+
+    <div class="container">
+        <button onclick="prev()";>Previous</button>
+        <img src="images/slider-1.jpg" id="slider_image" alt="image">
+        <button onclick="next()";>Next</button>
+    </div>
+
+    <div class="wrapper">
+        <h1 class="heading">You have not clicked yet.</h1>
+
+        <button class="myButton">Button - 1</button>
+        <button class="myButton">Button - 2</button>
+        <button class="myButton">Button - 3</button>
+        <button class="myButton">Button - 4</button>
+
+        <br><br>
+        <button class="refresh">Refresh</button>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
